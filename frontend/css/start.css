@@ -1,8 +1,8 @@
 body {
-    background-image: url("../images/background.jpg");
+    background-image: url("../images/start/background.jpg");
 }
 
-h1{
+.headers {
   text-transform: uppercase;
   text-shadow: 0.02605448em -0.02429619em 0em rgba(0, 255, 255, 1.000000),-0.02605448em 0.02429619em 0em rgba(255, 0, 255, 1.000000);
   color: #7843e6;
@@ -13,12 +13,16 @@ h1{
   margin-bottom: 2%;
 }
 
-h2 {
-    text-transform: uppercase;
-    text-shadow: 0.02605448em -0.02429619em 0em rgba(0, 255, 255, 1.000000),-0.02605448em 0.02429619em 0em rgba(255, 0, 255, 1.000000);
-    color: #7843e6;
-    font-family: "Bungee";
-    font-size: xxx-large;
-    line-height: 0.73125046em;
-    text-align: center;
+.member-img {
+  width: 15%;
+  height: 15%;
+  border-radius: 50%;
+  border: 2px solid #7843e6;
+  box-shadow: 0 0 0 2px #7843e6;
+
+}
+
+.members {
+  text-align: center;
+  margin-top: 2%;
 }
